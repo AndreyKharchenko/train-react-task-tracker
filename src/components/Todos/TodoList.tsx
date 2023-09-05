@@ -10,7 +10,6 @@ const TodoList: FC<{}> = observer(() => {
   
   useEffect(() => {
     todoStore.getTodos();
-    console.log(todoStore.todos);
   }, [])
 
   return (

@@ -13,7 +13,6 @@ class Todos {
 
     async getTodos() {
         try {
-            console.log(this.todos)
             const res = await todosAPI.getTodos();
             this.todos = res.data.map((todo: any) => {
                 todo.desc = faker.lorem.lines();

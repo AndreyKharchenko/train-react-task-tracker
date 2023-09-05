@@ -33,7 +33,7 @@ const TodoItem: FC<ITodoItemProps> = observer(({todo}) => {
             {
               todo.tags.map((tag, idx) => {
                 return(
-                  <Tag text={tag.text} type={tag.type} />
+                  <Tag text={tag.text} type={tag.type} key={idx} />
                 )
               })
             }
