@@ -1,0 +1,140 @@
+.todo-list-container {
+    width: auto;
+    box-sizing: border-box;
+    margin: 10px auto;
+    height: 716px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+::-webkit-scrollbar { width: 0; }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #50B810;
+    margin-bottom: 1rem;
+    width: 263px;
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        
+        .add-btn {
+            cursor: pointer;
+            border-radius: 4px;
+            width: 20px;
+            height: 20px;
+            background-color: #EBEEF6;
+        }
+
+        .count {
+            border-radius: 4px;
+            width: 20px;
+            height: 20px;
+            color: #7B8AAB;
+            border: 1px solid #7B8AAB;
+            font-size: 12px;
+            line-height: 16.8px;
+            text-align: center;
+            font-weight: 600;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.todo-card {
+    background-color: #EEF4FE;
+    margin-bottom: 1rem;
+    width: 255px;
+    height: 158px;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    box-sizing: border-box;
+    width: 263px;
+    height: 166px;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: #FFF;
+}
+
+.todo-title {
+    display: flex;
+    margin-bottom: -1rem;
+    .text {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18.2px;
+        color: #3D8FEC;
+        margin-top: 0.1rem;
+        margin-left: 0.2rem;
+        text-align: left;
+    }
+}
+
+.todo-timing {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #50B810;
+    margin-bottom: -1rem;
+}
+
+.todo-desc {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: -1rem;
+}
+
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-tags {
+    display: flex;
+    .first {
+        width: auto;
+        height: 20px;
+        background-color: #B233A6;
+        padding: 2px 6px 4px 6px;
+        border-radius: 4px;
+        color: #FFF;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .second {
+        width: auto;
+        height: 20px;
+        background-color: #EBEEF6;
+        padding: 2px 6px 4px 6px;
+        border-radius: 4px 0px 0px 4px;
+        color: #616C82;
+        text-align: center;
+    }
+}
