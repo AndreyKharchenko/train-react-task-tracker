@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/train-react-task-tracker/static/css/main.bde5f766.css",
+    "main.js": "/train-react-task-tracker/static/js/main.e7164931.js",
+    "static/js/787.a96b8ca6.chunk.js": "/train-react-task-tracker/static/js/787.a96b8ca6.chunk.js",
+    "index.html": "/train-react-task-tracker/index.html",
+    "main.bde5f766.css.map": "/train-react-task-tracker/static/css/main.bde5f766.css.map",
+    "main.e7164931.js.map": "/train-react-task-tracker/static/js/main.e7164931.js.map",
+    "787.a96b8ca6.chunk.js.map": "/train-react-task-tracker/static/js/787.a96b8ca6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bde5f766.css",
+    "static/js/main.e7164931.js"
+  ]
+}
